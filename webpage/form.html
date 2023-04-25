@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="req">
+            <form name="f" method="get" action="">
+                <h1 align:center>REGISTRATION FORM</h1>
+                <table border:"0" cellspacing:"0" cellpadding="5">
+                    <tr>
+                        <td><label for="username">USERNAME:</label></td>
+                        <td><input type="text" name="u"  class="da" placeholder="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">EMAIL:</label></td>
+                        <td><input type="email" name="e" class="da" placeholder="mail id" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">GENDER:</label></td>
+                        <td><input type="radio" name="g">MALE</td>
+                        <td><input type="radio" name="g">FEMALE</td>
+                    </tr>
+                    <tr>
+                        <td><label for="rele">REIGION:</label></td>
+                        <td><select name="rele" required>
+                            <option>HINDU</option>
+                            <option>CHIRSTIAN</option>
+                            <option>MUSLIM</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="b">DOB:</label></td>
+                        <td><input type="date" name="d" class="da" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="l">LANGUAGES:</label></td>
+                        <td><input type="checkbox" name="l" >TELUGU
+                            <input type="checkbox" name="l" >HINDI
+                            <input type="checkbox" name="l" >ENGLISH
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ad">ADDRESS:</label></td>
+                        <td><textarea rows="5" cols="20" class="do"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="p">PASSWORD:</label></td>
+                        <td><input type="password" name="p" class="da" placeholder="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="s" style:color:blue></td>
+                        <td><input type="reset" name="r" style:color:blue></td>
+                    </tr>
+                    <tr class="ch">
+                        <td><input type="checkbox" name="t">I agree to a terms and conditions</td>
+                    </tr>
+                </table>
+                <nav class="n">
+                    <a href="#">HELP</a>
+                    <a href="#">SUPPORT</a>
+                </nav>
+            </form>
+        </div>
+    </body>
+</html>
