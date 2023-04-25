@@ -1,0 +1,58 @@
+<html>
+    <head>   
+    </head>
+    <body>
+         <button onClick="showImage()">click now</button>
+        <div id="first" style="display:none;">
+             <p>this is where onclick event is executing</p>
+             <img src="C:\Users\ADMIN\Desktop\python\p1.jpg"/>    
+             <img src="C:\Users\ADMIN\Desktop\python\p5.jpg"/> 
+        </div>
+<script>
+const showImage = () => {
+        document.getElementById("first").style.display ='block';
+}
+            function f1(){
+                const x= document.getElementById("t")
+                x.innerHTML="computer science department"
+                x.style.color="blue"
+            }
+
+            function f2(){
+                document.write("cse a strength is 68<br> this is where we are displaying the strength of the class")
+                alert("CSE A INFORMATION")
+
+            }
+            function fun(){
+                const x= document.getElementById("h")
+                x.style.backgroundColor="red"
+            }   
+            function f3()
+            {
+                const y=document.getElementById("demo")
+                y.style.backgroundColor="red"
+            }  
+            function f4()
+            {
+                document.getElementById("p2").innerHTML="You was double clicked"
+            }  
+            </script>
+            </body>            
+                
+ </script>
+        <h2 align="center" onmouseover="fun()" id="h">BRANCHES</h2>
+        <ol type="1" >
+            <Li ><h5 id="t" onmouseover="f1()">CSE</h5>
+                <ol type="i">
+                    <li><p id ="s" onmouseover="f2()">CSE A</p></li>
+                    <li>CSE B</li>
+                    <li>CSE C</li>
+                </ol> 
+                <p id ="p2" ondblclick="f4()">dbclick me</p><br></br>
+                <br><div><input type="text" id="demo" onkeypress='f3()'></div></br>
+                <input type="text" id="p1" onkeyup='document.getElementById("p1").value=document.getElementById("p1").value.toUpperCase()'><br></br>
+            </Li>
+        </ol>
+        
+    </body>
+</html>

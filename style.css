@@ -1,0 +1,47 @@
+body {
+    margin: 50px;
+    border-style:groove;
+    font-style: serif;
+  }
+  .req{
+    border: 5px double;
+    background-color: wheat;    
+    text-align: center;
+    color:rgb(17, 3, 24)
+  }
+  a
+  {
+    flex:10;
+    text-decoration:name;
+    outline:name;
+    text-align:left;
+    line-height:3;
+    color:black;
+  }
+  a:link,
+  a:visited,
+  a:focus
+  {
+    background:white;
+    color:slateblue;
+  }
+  
+  a:hover
+  {
+    color:black;
+  }
+ h1{
+  text-decoration: wavy;
+  color: rgb(10, 5, 72);
+  background-color: burlywood;
+ }
+.ch{
+ 
+  color: rgb(12, 2, 49);
+}
+.da{
+  border:2px dashed
+}
+.do{
+  border:2px dotted
+}
